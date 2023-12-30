@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <style>
+        .carousel-item {
+            height: 80vh; /* Adjusted height */
+            min-height: 200px; /* Adjusted minimum height */
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">AGRICULTURAL BLOG</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#content1">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="boostrap_contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="4000"> <!-- Added data-interval -->
+            <div class="carousel-indicators">
+                <button type="button" data-target="#carouselExampleCaptions" data-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-target="#carouselExampleCaptions" data-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-target="#carouselExampleCaptions" data-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('home.jpg')">
+                    <div class="carousel-caption">
+                        <h5>Sustainable Development</h5>
+                        <p>Seeds of green hope in soil of care,
+                            Sustainable growth, a planet to spare.
+                            Harmony blooms, a future we share..</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('greenhouse-2645743.jpg')">
+                    <div class="carousel-caption">
+                        <h5>Agritech</h5>
+                        <p>Tech whispers in fields, a digital embrace,
+                            Smart farming strides, cultivating with grace.
+                            Innovation sows progress, the future we chase.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('1.jpg')">
+                    <div class="carousel-caption">
+                        <h5>The heaven for bloggers</h5>
+                        <p> 
+                            Welcome, farmers! Join our agricultural blog, where we share knowledge, tips, and support for all farming levels. Explore topics like crop cultivation, livestock management, sustainability, and market trends. We're here to help you maximize yields, improve quality, and enhance efficiency. Engage with us and fellow farmers to create a thriving community. Happy farming! SpareHead Team</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
+                data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions"
+                data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="py-5" id="content1">
+        <div class="container">
+            <div class="card-wrapper col-lg-4 col-md-6 col-xs-12">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img class="card-img-top"
+                            src="sustainable-development-3993929.jpg"
+                            alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Sustainable development</h5>
+                        <div class="card-content">
+                            <p class="card-text">"Sustainable development is development that meets the needs of the
+                                present, without compromising the ability of future generations to meet their own
+                                needs."</p>
+                            <a href="sustainable development.html"
+                                class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-wrapper col-lg-4 col-md-6 col-xs-12">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img class="card-img-top"
+                            src="agritech.jpg"
+                            alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Agritech</h5>
+                        <div class="card-content">
+                            <p class="card-text">Agricultural technology, or "agritech," refers to a diverse array of tools and disciplines aimed at enhancing agricultural productivity. it includes vehicles, robotics, computers, and software.</p>
+                            <a href="agritech.html" class="btn btn-primary">Go on website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-wrapper col-lg-4 col-md-6 col-xs-12">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img class="card-img-top"
+                            src="subsidies.jpeg"
+                            alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Role of Subsidies </h5>
+                        <div class="card-content">
+                            <p class="card-text">"Farming subsidies in India constitute approximately 2% of the GDP and these subsidies represent 21% of farmers' total income, playing a vital role in sustaining the agricultural sector."</p>
+                            <a href="https://www.standupmitra.in/Home/SubsidySchemesForAll" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <style>
+        .card-wrapper {
+            margin-bottom: 30px;
+        }
+
+        .card-image .card .card-img-wrapper {
+            height: 100%;
+        }
+
+        .card-image .card .card-body {
+            display: none;
+        }
+
+        .card-image-title-description .card .card-img-wrapper {
+            max-height: 160px;
+        }
+
+        .card-image-title-description .card {
+            position: relative;
+            min-height: 300px;
+        }
+
+        .card-image-title-description .card .card-body {
+            height: auto;
+            position: relative;
+            top: 0;
+            margin-bottom: -70px;
+        }
+
+        .card-image-title-description .card:hover .card-body {
+            top: -70px;
+        }
+
+        .card-image-title-description .card .card-body .card-title {
+            margin-bottom: .75rem;
+        }
+
+        .card {
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+            min-height: 400px;
+            height: 100%;
+        }
+
+        .card:hover {
+            box-shadow: 8px 12px 31px -10px #ab98ab;
+        }
+
+        .card-img-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50%;
+            overflow: hidden;
+        }
+
+        .card-img-wrapper img {
+            transition: 1.5s ease;
+        }
+
+        .card:hover .card-img-wrapper img {
+            transform: scale(1.15);
+        }
+
+        .card-body .card-title {
+            margin-bottom: calc(50% + 20px);
+            transition: 1.5s ease;
+        }
+
+        .card:hover .card-body .card-title {
+            margin-bottom: .75rem;
+        }
+
+        .card-body {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 50%;
+            background-color: #fff;
+            transition: 1.5s ease;
+        }
+
+        .card-content {
+            left: 0;
+            right: 0;
+            overflow: hidden;
+            width: 100%;
+            height: auto;
+            transition: 1.5s ease;
+        }
+
+        .card:hover .card-body {
+            height: 80%;
+        }
+
+        .card:hover .card-content {
+            bottom: 0;
+        }
+
+        section {
+            margin: 0;
+            background-image: linear-gradient(to right, #ECE9E6, #FFFFFF);
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card-wrapper {
+            flex: 1;
+        }
+    </style>
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Agricultural<span>Blog</span></h3>
+
+            <p class="footer-links">
+                <a href="#" class="link-1">Home</a>
+
+                <a href="#">Blog</a>
+
+
+
+                <a href="boostrap_contact.html">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Agricultural Blog © 2023</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Avadi</span> chennai,India</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 6200542180</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">support@Blog.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>The heaven for bloggers</span>
+
+                Welcome, farmers! Join our agricultural blog, where we share knowledge, tips, and support for all
+                farming levels. Explore topics like crop cultivation, livestock management, sustainability, and market
+                trends. We're here to help you maximize yields, improve quality, and enhance efficiency. Engage with us
+                and fellow farmers to create a thriving community. Happy farming!
+                SpareHead Team
+            </p>
+
+        </div>
+    </footer>
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+        * {
+            font-family: Open Sans;
+        }
+
+        section {
+            width: 100%;
+            display: inline-block;
+            background: #333;
+            height: 50vh;
+            text-align: center;
+            font-size: 22px;
+            font-weight: 700;
+            text-decoration: underline;
+        }
+
+        .footer-distributed {
+            background: #666;
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+            box-sizing: border-box;
+            width: 100%;
+            text-align: left;
+            font: bold 16px sans-serif;
+            padding: 55px 50px;
+        }
+
+        .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        /* Footer left */
+
+        .footer-distributed .footer-left {
+            width: 40%;
+        }
+
+        /* The company logo */
+
+        .footer-distributed h3 {
+            color: #ffffff;
+            font: normal 36px 'Open Sans', cursive;
+            margin: 0;
+        }
+
+        .footer-distributed h3 span {
+            color: lightseagreen;
+        }
+
+        /* Footer links */
+
+        .footer-distributed .footer-links {
+            color: #ffffff;
+            margin: 20px 0 12px;
+            padding: 0;
+        }
+
+        .footer-distributed .footer-links a {
+            display: inline-block;
+            line-height: 1.8;
+            font-weight: 400;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .footer-distributed .footer-company-name {
+            color: #222;
+            font-size: 14px;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        /* Footer Center */
+
+        .footer-distributed .footer-center {
+            width: 35%;
+        }
+
+        .footer-distributed .footer-center i {
+            background-color: #33383b;
+            color: greenyellow;
+            font-size: 25px;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 42px;
+            margin: 10px 15px;
+            vertical-align: middle;
+        }
+
+        .footer-distributed .footer-center i.fa-envelope {
+            font-size: 17px;
+            line-height: 38px;
+        }
+
+        .footer-distributed .footer-center p {
+            display: inline-block;
+            color: #ffffff;
+            font-weight: 400;
+            vertical-align: middle;
+            margin: 0;
+        }
+
+        .footer-distributed .footer-center p span {
+            display: block;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 2;
+        }
+
+        .footer-distributed .footer-center p a {
+            color: lightseagreen;
+            text-decoration: none;
+            ;
+        }
+
+        .footer-distributed .footer-links a:before {
+            content: "|";
+            font-weight: 300;
+            font-size: 20px;
+            left: 0;
+            color: #fff;
+            display: inline-block;
+            padding-right: 5px;
+        }
+
+        .footer-distributed .footer-links .link-1:before {
+            content: none;
+        }
+
+        /* Footer Right */
+
+        .footer-distributed .footer-right {
+            width: 20%;
+        }
+
+        .footer-distributed .footer-company-about {
+            line-height: 20px;
+            color: #92999f;
+            font-size: 13px;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        .footer-distributed .footer-company-about span {
+            display: block;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .footer-distributed .footer-icons {
+            margin-top: 25px;
+        }
+
+        .footer-distributed .footer-icons a {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+            background-color: black;
+            border-radius: 2px;
+
+            font-size: 20px;
+            color: #ffffff;
+            text-align: center;
+            line-height: 35px;
+
+            margin-right: 3px;
+            margin-bottom: 5px;
+        }
+
+        /* If you don't want the footer to be responsive, remove these media queries */
+
+        @media (max-width: 880px) {
+
+            .footer-distributed {
+                font: bold 14px sans-serif;
+            }
+
+            .footer-distributed .footer-left,
+            .footer-distributed .footer-center,
+            .footer-distributed .footer-right {
+                display: block;
+                width: 100%;
+                margin-bottom: 40px;
+                text-align: center;
+            }
+
+            .footer-distributed .footer-center i {
+                margin-left: 0;
+            }
+
+        }
+    </style>
+</body>
+
+</html>
